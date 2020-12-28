@@ -1,0 +1,73 @@
+
+*{
+    background-color: black;
+}
+#box{
+    width: 300px;
+    height: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    border: double 5px white;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    display: inline-block;
+}
+#pacman{
+    width: 30px;
+    height: 30px;
+    background-image: url('pacman.gif');
+    background-size: cover;
+    position: absolute;
+    /*transform: rotate(-180deg);*/
+}
+.brick{
+    width: 30px;
+    height: 30px;
+    /*background-color: rgb(30, 30, 151);*/
+    background: -webkit-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    border: double 1px rgb(120, 169, 192);
+    border-radius: 3px;
+}
+.coin{
+    width: 30px;
+    height: 30px;
+    background-image: url('coin.gif');
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.empty{  
+    width: 30px;
+    height: 30px;
+}
+.cherry{
+    width: 30px;
+    height: 30px;
+    background-image: url('cherry.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#ghost1{
+    width: 30px;
+    height: 30px;
+    background-image: url('ghost1.gif');
+    background-size: cover;
+    position: absolute;
+}
+#ghost2{
+    width: 30px;
+    height: 30px;
+    background-image: url('ghost2.gif');
+    background-size: cover;
+    position: absolute;
+}
+#ghost3{
+    width: 30px;
+    height: 30px;
+    background-image: url('ghost3.gif');
+    background-size: cover;
+    position: absolute;
+}
